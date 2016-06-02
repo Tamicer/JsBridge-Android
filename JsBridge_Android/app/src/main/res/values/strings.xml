@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">jsBridge</string>
+
+    <!-- Strings related to login -->
+
+    <string name="title_activity_main">MainActivity</string>
+</resources>

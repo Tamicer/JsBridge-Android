@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainDetailFragment" >
+
+    <!-- button 演示Java调用web -->
+    <!--<Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:text="@string/button_name"
+        android:layout_height="48dp"
+        />-->
+    <TextView
+        android:id="@+id/menu_detail"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="4sdsd"
+        android:textIsSelectable="true"
+        />
+
+
+    <com.github.lzyzsd.jsbridge.BridgeWebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
