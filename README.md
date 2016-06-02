@@ -1,0 +1,4 @@
+# JsBriage_Android
+java 和 js互通框架 
+WebViewJavascriptBridge是移动UIView和Html交互通信的桥梁，用作者的话来说就是实现java（ios为oc）和js的互相调用的桥梁。
+替代了WebView的自带的JavascriptInterface的接口，使得我们的开发更加灵活和安全。
